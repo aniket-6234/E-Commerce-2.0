@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+.nav {
+  height: 80px;
+  background-color: #00684A;
+  padding: 0px 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-head {
+  color: white;
+  font-weight: 500;
+}
+footer {
+  height: 100px;
+  background-color: rgb(66, 65, 65);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-row {
+  margin-top: 20px;
+  width: 100%;
+  /* background-color: #2f6c58; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.product-card {
+  height: 325px;
+  width: 270px;
+  background-color: whitesmoke;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.product-card:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(225, 223, 223);
+}
+.product-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.product-screen {
+  height: 700px;
+  background-color: #432f6c;
+  padding: 40px 140px;
+}
+
+.product-div {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.login-container {
+  height: 90vh;
+  display: flex;
+}
+
+.login-box-1 {
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  padding-top: 70px;
+  padding-left: 140px;
+}
+
+.login-box-2 {
+  width: 60%;
+  height: 100%;
+  background-color: #023430;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 50px 120px;
+}
+.log-in-head {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+.input-box {
+  width: 315px;
+  height: 40px;
+  border: 1px solid #333;
+  outline: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.btn-login {
+  width: 315px;
+  height: 50px;
+  border: none;
+  background-color: #00684A;
+  margin-top: 40px;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+.btn-login:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #048130;
+}
+.discover-text {
+  color: white;
+  font-weight: 600;
+  /* font-family: 'Poppins', sans-serif; */
+  font-size: 25px;
+  width: 350px;
+  font-family: 'Roboto Mono', monospace;
+}
